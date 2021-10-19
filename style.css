@@ -1,0 +1,40 @@
+#gameArea {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 450px;
+}
+
+#blockBank {
+    padding-top: 30px;
+}
+
+#leftBlock {
+    position: absolute;
+    left: 25%;
+}
+
+#centerBlock {
+    position: absolute;
+    left: 50%;
+}
+
+#rightBlock {
+    position: absolute;
+    right: 25%;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+.block {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
